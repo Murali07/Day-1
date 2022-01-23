@@ -1,0 +1,24 @@
+Question:2. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+Answer: 
+
+HTTP2 is much faster and more reliable than HTTP1.1
+HTTP1.1 loads resources one after other, so if one resource cannot be loaded, it blocks all the other resources behind it. In contrast, HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.
+HTTP2 is fully multiplexed.
+HTTP2 loads webpages faster than HTTP1.1
+
+Question: 3. Write a blog about objects and its internal representation in Javascript
+
+Answer:
+
+Objects are important in javascript. A Javascript object is a collection of named values.Objects are different than primitive data types (i.e. Number,boolean,string,undefined,null,symbols) Primitive data types can hold only one value but Objects can hold many values in the form of Key:Value pair. These keys can be varibles or functions and are called properties and methods.
+
+Object Properties:
+
+var Person = {Firstname : "Murali", Lastname : "Selvaraj", Age : 24, Technology : "Javascript"}
+
+Object Methods:
+
+Person.Name = function(){
+	return this.Firstname+" " +this.Lastname;
+}
